@@ -1,6 +1,6 @@
 number_count = gets.to_i
 running_sum = 0
-number_count.times do
+for _n in number_count.times
   running_sum += gets.to_i
 end
 
