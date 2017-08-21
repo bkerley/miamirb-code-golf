@@ -1,11 +1,1 @@
-(0..100).map { |i|
-  puts (if i%3==0 && i%5==0
-    "fizz buzz"
-  elsif i%3==0
-    "fizz"
-  elsif i%5==0
-    "buzz"
-  else
-    i
-  end)
-}
+101.times{|i|puts((i%15==0&&"fizz buzz")||(i%3==0&&"fizz")||(i%5==0&&"buzz")||i)}
