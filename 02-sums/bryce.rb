@@ -1,1 +1,1 @@
-p (gets.to_i+1).times.reduce{|x|x+gets.to_i}/10**31
+p gets.to_i.times.map{gets.to_i}.reduce(:+)/10**31
